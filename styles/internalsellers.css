@@ -1,0 +1,83 @@
+.internal-sellers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 145px;
+  margin-bottom: 118px;
+}
+
+.internal-sellers-codesdirect {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.internal-sellers-card {
+  padding: 56px 58px 6px 56px;
+  max-width: 407px;
+  background-color: #f2f2f1;
+  border-radius: 24px;
+  position: relative;
+}
+
+.internal-sellers-card_logo {
+  max-width: 99px;
+  max-height: 24px;
+}
+
+.internal-sellers_description {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 48px;
+  max-width: 757px;
+}
+
+.internal-sellers h2 {
+  max-width: 421px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.internal-sellers-card h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  max-width: 293px;
+  text-align: left;
+}
+
+.internal-sellers-card p {
+  max-width: 286px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #616161;
+  margin-top: 26px;
+  margin-bottom: 63px;
+}
+
+.internal-sellers-card_button_rounds {
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  left: 24px;
+  bottom: 6px;
+  padding-top: 48px;
+}
+
+.internal-sellers-card_button_round-orange {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ff8c78;
+}
+
+.internal-sellers-card_button_round {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: #c4c4c4;
+}

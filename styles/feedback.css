@@ -1,0 +1,53 @@
+.feedback {
+    display: flex;
+    justify-content: center;
+    margin-top: 184px;
+}
+
+.feedback-comment-header {
+    display: flex;
+}
+
+.feedback-comment {
+    border: 1px solid #E3E3E3;
+    border-radius: 12px;
+    max-width: 492px;
+    padding: 33px;
+}
+
+.feedback-comment-name {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.feedback-comment-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.feedback-comment p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.feedback-comment-url {
+    color: #FF8C78;
+}
+
+.feedback-comment img {
+    padding-right: 12px;
+}
+
+.feedback-img {
+    margin-left: 28px;
+    width: 248px;
+}

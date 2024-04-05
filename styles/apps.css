@@ -1,0 +1,23 @@
+.apps {
+    margin-top: 108px;
+}
+
+.apps_unlimited-apps {
+    background-color: #FAFAFA;
+    border-radius: 24px;
+}
+
+.apps_unlimited-apps h4 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    padding-top: 55px;
+    padding-left: 56px;
+    padding-right: 175px;
+    text-align: left;
+}
+
+.apps_unlimited-apps div {
+    padding: 49px 56px 144px;
+}

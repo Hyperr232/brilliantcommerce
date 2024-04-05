@@ -1,0 +1,80 @@
+.brand-title > .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.brand-title {
+  padding-bottom: 37px;
+  padding-top: 127px;
+  background-image: url(/assets/half-triangle.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.brand-title h1 {
+  max-width: 726px;
+  font-size: 63px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 1.8px;
+}
+
+.brand-description {
+  margin-top: 51px;
+  margin-bottom: 47px;
+  max-width: 739px;
+}
+
+.brand-half-triangleimg {
+  align-self: start;
+  position: absolute;
+}
+
+.brand-label {
+  color: #1b1a1a;
+  position: absolute;
+  cursor: default;
+}
+
+.brand-label_left-bottom {
+  background-color: #ff8c78;
+  bottom: 32px;
+  left: -17px;
+}
+
+.brand-label_right-bottom {
+  background-color: #86efac;
+  right: 23px;
+  bottom: 32px;
+}
+
+.brand-label_right-center {
+  background-color: #ffde6a;
+  right: -43px;
+  top: 65px;
+}
+
+.brand-worldwide {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 145px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.9px;
+}
+
+.brand-worldwide > img {
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.brand-logos {
+  display: flex;
+  padding: 46px 94px 0;
+  column-gap: 40px;
+}

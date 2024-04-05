@@ -1,0 +1,221 @@
+.payments {
+  margin-top: 159px;
+}
+
+.payments h3 {
+  margin-bottom: 47px;
+}
+
+.payments h2 {
+  max-width: 458px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.payments-description {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 48px;
+  max-width: 742px;
+}
+
+.payments-benefits {
+  display: flex;
+  column-gap: 42px;
+  margin-top: 93px;
+}
+.icons-circle {
+  margin-right: 11px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #ffeba4;
+}
+
+.payments-benefits img {
+  width: 30px;
+  height: 30px;
+}
+.benefits {
+  display: flex;
+  align-items: center;
+}
+
+.payments-universal-checkout {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 111px;
+}
+
+.payments-universal-checkout-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 320px;
+  border-radius: 24px;
+  background-color: #fff9e3;
+}
+
+.payments-universal-checkout-card h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 42px;
+}
+
+.payments-universal-checkout-card p {
+  max-width: 271px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #616161;
+  margin-top: 35px;
+  margin-bottom: 54px;
+}
+
+.payments-picture-pay-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffeba4;
+  border-radius: 24px;
+}
+
+.payment-integrations-colors {
+  margin-bottom: 64px;
+  margin-left: 38px;
+}
+
+.payment-integrations-colors span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.7px;
+  text-align: left;
+}
+
+.payment-integrations-colors__items {
+  margin-top: 10px;
+  position: relative;
+  border: none;
+  display: flex;
+}
+
+.square {
+  height: 32px;
+  width: 32px;
+  border-radius: 6px;
+  border: 2px solid #fff9e3;
+  box-sizing: border-box;
+}
+.payment-integrations-colors__items__first-square {
+  background-color: #35b454;
+  position: relative;
+  z-index: 10;
+}
+
+.payment-integrations-colors__items__second-square {
+  background-color: #6772e5;
+  position: relative;
+  left: -11px;
+  z-index: 9;
+}
+
+.payment-integrations-colors__items__third-square {
+  background-color: #202020;
+  position: relative;
+  left: -22px;
+  z-index: 8;
+}
+
+.payment-integrations-colors__items__fourth-square {
+  background-color: #575664;
+  position: relative;
+  left: -33px;
+  z-index: 7;
+}
+
+.payment-integrations-colors__items__fifth-square {
+  background-color: #bee4fe;
+  position: relative;
+  left: -44px;
+  z-index: 6;
+}
+
+.payment-integrations-colors__items__sixth-square {
+  background-color: #f2f2f2;
+  position: relative;
+  left: -55px;
+  z-index: 5;
+}
+
+.payment-integrations-colors__items__seventh-square {
+  background-color: #ffb3c7;
+  position: relative;
+  left: -66px;
+  z-index: 4;
+}
+
+.payment-integrations-colors__items__eighth-square {
+  background-color: #ffffff;
+  position: relative;
+  left: -77px;
+  z-index: 3;
+}
+
+.payment-integrations-colors__items__ninth-square {
+  background-color: #1270f6;
+  position: relative;
+  left: -88px;
+  z-index: 2;
+}
+
+.payments-api-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.payments-api-benefits h4 {
+  display: flex;
+  justify-content: start;
+  text-align: left;
+  margin-top: 143px;
+  margin-bottom: 49px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  width: 100%;
+}
+
+.payments-api-benefits-card > div {
+  display: flex;
+  height: 309px;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.payments-api-benefits-card__adaptive > div {
+  background-color: #e3e3e3;
+}
+
+.payments-api-benefits-card__token > div {
+  background-color: #ffeba4;
+}
+
+.payments-api-benefits-card__vault > div {
+  background-color: #f2f2f1;
+}
+
+.payments-api-benefits-card__pay > div {
+  background-color: #ff8c78;
+}
