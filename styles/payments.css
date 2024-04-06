@@ -179,8 +179,8 @@
 
 .payments-api-benefits {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -218,4 +218,26 @@
 
 .payments-api-benefits-card__pay > div {
   background-color: #ff8c78;
+}
+
+@media (max-width: 768px) {
+  .payments-universal-checkout {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .payments-universal-checkout-card {
+    width: 73%;
+    flex-direction: column;
+    align-items: center;
+    max-width: none;
+  }
+  .payments-benefits {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .benefits {
+    width: 30%;
+    justify-content: flex-start;
+  }
 }

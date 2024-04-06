@@ -81,3 +81,11 @@
   padding: 46px 94px 0;
   column-gap: 40px;
 }
+
+@media (max-width: 768px) {
+  .brand-logos {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-height: 20%;
+  }
+}
